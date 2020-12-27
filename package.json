@@ -1,0 +1,23 @@
+{
+  "name": "jsme-webpack-example",
+  "version": "1.0.0",
+  "description": "Very simple example that shows how to integrate JSME as a static asset in a Webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD 2-Clause License",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.4",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "jsme-editor": "^0.8.0"
+  }
+}
